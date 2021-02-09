@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Timezone snapshot loading renders correctly 1`] = `
+<div
+  className="timezone"
+  data-testid="timezone"
+>
+  <div
+    className="wrapper"
+  >
+    <ul
+      className="timezone__list"
+      data-testid="list"
+    >
+      <li
+        className=""
+        onClick={[Function]}
+      >
+        <div>
+          Europe/Andorra
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

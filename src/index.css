@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.timezone__list{
+  list-style: none;
+    height: 500px;
+    overflow-y: scroll;
+}
+.timezone__list li{
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.wrapper{
+  border: solid 1px #ccc;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+}
+
+.active{
+ background-color: #efffef;
+}
